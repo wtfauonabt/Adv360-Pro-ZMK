@@ -4,12 +4,6 @@ label = "macro_undo";
 #binding-cells = <0>;
 bindings = <&kp LCTRL>, <&kp Z>;
 };
-macro_select-all: macro_select-all{
-compatible = "zmk,behavior-macro";
-label = "macro_select-all";
-#binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp A>, <&kp LCTRL>, <&kp C>;
-};
 macro_paste: macro_paste{
 compatible = "zmk,behavior-macro";
 label = "macro_paste";
