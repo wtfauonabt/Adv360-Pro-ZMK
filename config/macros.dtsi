@@ -2,7 +2,7 @@ macro_selectallcopy: macro_selectallcopy{
 compatible = "zmk,behavior-macro";
 label = "macro_selectallcopy";
 #binding-cells = <0>;
-bindings = <&kp LC(A)>, <&kp LC(C)>, <&kp C>;
+bindings = <&kp LC(A)>, <&kp LC(C)>;
 };
 macro_undo: macro_undo{
 compatible = "zmk,behavior-macro";
